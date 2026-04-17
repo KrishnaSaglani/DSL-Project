@@ -5,9 +5,9 @@
 #include <string.h>
 
 /* TFLite Micro */
-#include "tensorflow/lite/micro/all_ops_resolver.h"
-#include "tensorflow/lite/micro/micro_interpreter.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "tflm/tensorflow/lite/micro/all_ops_resolver.h"
+#include "tflm/tensorflow/lite/micro/micro_interpreter.h"
+#include "tflm/tensorflow/lite/schema/schema_generated.h"
 
 /* CONFIG */
 #define DEBOUNCE_MS 20
