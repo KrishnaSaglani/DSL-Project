@@ -5,7 +5,7 @@
 #include <string.h>
 
 /* TFLite Micro */
-#include "tflm/tensorflow/lite/micro/all_ops_resolver.h"
+#include "tflm/tensorflow/lite/micro/micro_mutable_op_resolver.h"
 #include "tflm/tensorflow/lite/micro/micro_interpreter.h"
 #include "tflm/tensorflow/lite/schema/schema_generated.h"
 
